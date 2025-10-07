@@ -1,1 +1,43 @@
-test
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <p>Какого питомца вы бы хотели завести?</p>
+    <input type="radio" name="pets" value="dog" id="dog" checked>
+    <label for="dog">Собака</label> <br>
+    <input type="radio" name="pets" value="cat" id="cat">
+    <label for="cat">Кот</label> <br>
+    <input type="radio" name="pets" value="bird" id="bird">
+    <label for="bird">Птица</label>
+</div>
+<div>
+<label for="pets-select"> Выберите питомца:</label> <br>
+<select name="pets" id="pets-select">
+    <option value="">--Сделайте выбор--</option>
+    <option value="dog">Собака</option>
+    <option value="cat">Кот</option>
+    <option value="bird">Птица</option>
+    <option value="hamster">Хомяк</option>
+</select>
+    </div>
+<div>
+    <p>Какие клички питомцев вам нравятся?</p>
+    <input type="checkbox" name="nicknames" value="Борик" id="borik">
+    <label for="borik">Борик</label> <br>
+    <input type="checkbox" name="nicknames" value="Мурзик" id="murzik">
+    <label for="murzik">Мурзик</label> <br>
+    <input type="checkbox" name="nicknames" value="Миша" id="misha">
+    <label for="misha">Миша</label> <br>
+    <button name="button">Тык!</button>
+</div>
+<input type="text" value="привет!" placeholder="имя">
+<textarea id="message-textarea" name="message"> Введите сообщение... </textarea>
+</body>
+</html>
